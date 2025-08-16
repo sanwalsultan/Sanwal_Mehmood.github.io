@@ -486,6 +486,12 @@ html {
     color: var(--text-light);
     text-decoration: none;
     transition: color 0.3s ease;
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    max-width: 100%;
+    display: inline-block;
 }
 
 .contact-item a:hover {
